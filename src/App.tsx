@@ -1,13 +1,13 @@
-import BannerRotativo from "./components/BannerOfertas"
+import ClientList from "./components/ClientList"
 
 function App() {
 
   return (
     
     <div 
-      className="min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-gray-800 p-8 flex justify-center"
+      className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4"
     >
-      <BannerRotativo></BannerRotativo>
+      <ClientList></ClientList>
     </div>
     
   )
