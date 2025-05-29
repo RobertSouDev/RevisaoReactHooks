@@ -1,9 +1,9 @@
-import Contador from "./components/Contador";
+import Effect from "./components/Effect";
 
 function App() {
     return (
-        <div className="bg-gray-200 border-4 min-h-screen">
-            <Contador />
+        <div className="bg-gray-900 border-4 min-h-screen">
+            <Effect />
         </div>
     );
 }
