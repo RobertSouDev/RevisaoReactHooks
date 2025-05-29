@@ -5,7 +5,7 @@ export default function Effect() {
 
     useEffect(() => {
         const timer = setTimeout(() => {
-            console.log("Efeito montado!");
+            console.log("Efeito montadso!");
         }, 2000);
 
         return () => {
